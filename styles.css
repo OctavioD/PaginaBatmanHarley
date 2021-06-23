@@ -1,0 +1,13 @@
+header div.superior{
+    background-color: cyan;
+}
+header div.inferior{
+    background-color: blue;
+}
+
+footer{
+    background-color: cadetblue;
+}
+footer p{
+    color: white;
+}
