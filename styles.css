@@ -2,14 +2,21 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
+header{
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+}
 header div.superior{
     background-color: #1CD1B0;
+    height: 3vw;
 }
 header div.superior p{
     margin: 0px;
 }
 header div.inferior{
     background-color: #00669F;
+    height: 8vw;
 }
 header div.inferior h1{
     margin: 0px;
@@ -33,11 +40,14 @@ main article img.circular{
     width: 35%;
     height: 35%;
     border-radius: 50px;
+    z-index: 2;
+    bottom: 12%;
+    left: 50%;
 }
 footer{
     background-color: #00669F;
-    margin: 0px;
 }
 footer p{
     color: white;
+    margin: 0px;
 }
