@@ -7,6 +7,26 @@ header div.superior{
 header div.inferior{
     background-color: #00669F;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main article{
+    display: inline-block;
+    height: 70 vw;
+    width: 15vw;
+}
+main article img.de-fondo{
+    width: 100%;
+}
+main article img.circular{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    border-radius: 50px;
+}
 footer{
     background-color: #00669F;
 }
