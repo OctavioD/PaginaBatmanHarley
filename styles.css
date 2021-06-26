@@ -5,8 +5,14 @@ body{
 header div.superior{
     background-color: #1CD1B0;
 }
+header div.superior p{
+    margin: 0px;
+}
 header div.inferior{
     background-color: #00669F;
+}
+header div.inferior h1{
+    margin: 0px;
 }
 main{
     display: flex;
@@ -30,6 +36,7 @@ main article img.circular{
 }
 footer{
     background-color: #00669F;
+    margin: 0px;
 }
 footer p{
     color: white;
