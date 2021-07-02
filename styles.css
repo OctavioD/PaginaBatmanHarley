@@ -10,14 +10,12 @@ header{
 header div.superior{
     background-color: #1CD1B0;
     height: 3vw;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.8em;
 }
 header div.superior p{
-    background-color: #1CD1B0;
-    height: 4vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 1.5vw;
+    margin: 0px;
 }
 header div.inferior{
     background-color: #00669F;
