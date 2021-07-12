@@ -2,12 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
+
+/*HEADER*/
+
 header{
     position: fixed;
     display: inline-block;
     width: 100%;
     z-index: 1;
 }
+
 header div.superior{
     background-color: #1CD1B0;
     height: 3vh;
@@ -15,27 +19,64 @@ header div.superior{
     padding-bottom: 0.3em;
     padding-left: 0.8em;
 }
+
 header div.superior p{
     margin: 0px;
 }
-header div.inferior{
+
+header div.intermedio{
     background-color: #00669F;
-    height: 11vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 3vw;;
+    padding-left: 0.5vw;;
 }
-header div.inferior h1{
+
+header div.intermedio h1{
     margin: 0px;
 }
+
+.inferior{
+    background-color: #001D2D;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+}
+
+.inferior ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.inferior ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*MAIN*/
+
 main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 140vh;
     align-items: center;
+    padding-top: 10vh;
 }
+
 main article{
     display: inline-block;
     height: 45vw;
@@ -48,26 +89,31 @@ main article{
     border-bottom-right-radius: 0.8em;
     box-shadow: 0px 2.8px 6px 0px grey;
 }
+
 main article img.de-fondo{
     width: 100%;
 }
+
 main article img.circular{
     position: relative;
     border-radius: 75px;
     bottom: 12%;
     box-shadow: 0px 4px 5px 1px grey;
 }
+
 main article div{
     display: inline-block;
     height: 40%;
     position: relative;
     top: -10%;
 }
+
 main article div h2{
     margin: 0px;
     position: relative;
     font-size: 30px;
 }
+
 main article div button{
     font-size: 15px;
     background-color: #00669F;
@@ -80,14 +126,108 @@ main article div button{
     padding-right: 2.2em;
     font-family: 'Roboto';
 }
+
+#icono-suma{
+    background-color: #00669F;
+    color: white;
+    border-radius: 3rem;
+    border-width: 0px;
+    position: fixed;
+    left: 92%;
+    top: 80vh;
+    width: 65px;
+    height: 65px;
+    padding: 0px;
+    font-size: xxx-large;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 14px 1px grey;
+}
+
+#icono-suma:hover{
+    box-shadow: 0px 5px 14px 1px grey;
+    transition-duration: 1s;
+}
+
+#icono-suma:active{
+    background-color: #001D2D;
+    transition-duration: 0s;
+}
+    
+/*FOOTER*/
+
 footer{
     height: 7vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #00669F;
 }
+
 footer p{
     color: white;
     margin: 0px;
+    font-size: 12px;
+}
+
+/*FORMS*/
+
+.formulario{
+    height: 105vh;
+}
+
+.form{
+    border-width: 0px;
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+}
+
+.form h1{
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+.form fieldset{
+    border-width: 0px;
+}
+
+.form .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.form input{
+    background-color: white;
+    border-width: 1.7px;
+    border-color: black;
+    color: black;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 25px;
+}
+
+.form textarea{
+    border-width: 1.7px;
+    border-color: black;
+    color: black;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.form .botón{
+    display: inline-block;
+    width: 45%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
